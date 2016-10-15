@@ -1,23 +1,23 @@
-LinguaNatural-Soundex-mp1
+# LinguaNatural-Soundex-mp1
 
 Os algoritmos ditos fonéticos têm como objectivo associar uma única representação (chave) a palavras que soam de modo semelhante. O Soundex (Odell e Russel, 1922) e o Mataphone (Lawrence Philips, 1990) são exemplos deste tipo de algoritmos.
 
 Defina UM transdutor, usando outros transdutores mais pequenos, que implemente o seguinte algoritmo fonético: 
 
-1º passo
+###1. passo
 S → Z se entre vogais (ex: asa → aza)
 X → Z se precedido de "E" (que está no início de palavra) e seguido de uma vogal (ex: exame →
 ezame)
 X → S se precedido de "E" (que está no início de palavra) e seguido de uma consoante (ex: extra → estra)
 
-2º passo
+###2. passo
 CH → X 
 LH → 2 
 NH → 3 
 RR → 4 
 SS → S
 
-3º passo
+###3. passo
 R → 4 H →∅
 (ex: acho → axo) (ex: galho → ga2o) (ex: ganho → ga3o) (ex: carro → ca4o) (ex: massa → masa)
 se no início da palavra (ex: rato → 4ato) (ex:hoje→oje)
@@ -30,7 +30,7 @@ se seguido de "E" ou "I" (ex: gelo → jelo)
 caso contrário (ex: galo → kalo)
 se no fim da palavra (ex: xerox → xeroks)
 
-4º passo:
+###4. passo:
 Elimina todas as vogais que não se encontram no início da palavra (ex: aleluia→ all).
 
 
