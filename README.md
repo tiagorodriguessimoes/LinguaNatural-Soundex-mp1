@@ -32,9 +32,9 @@ Defina UM transdutor, usando outros transdutores mais pequenos, que implemente o
 
 
 Deverá ter em conta que:
-O transdutor que implementa o algoritmo fonético deverá processar uma palavra de cada vez e não uma sequência de palavras;
-O transdutor final deve ser construído usando pelo menos um transdutor por cada passo do algoritmo (4 passos);
-Dentro de cada passo é irrelevante a ordem pela qual as regras são aplicadas;
-Não serão considerados diacríticos (" ́", "`", "~", "^", cedilha);
-A entrada e a saída só devem conter minúsculas;
-O ficheiro "syms.txt" contém os símbolos a manipular pelos transdutores e não pode ser alterado.
+* O transdutor que implementa o algoritmo fonético deverá processar uma palavra de cada vez e não uma sequência de palavras;
+* O transdutor final deve ser construído usando pelo menos um transdutor por cada passo do algoritmo (4 passos);
+* Dentro de cada passo é irrelevante a ordem pela qual as regras são aplicadas;
+* Não serão considerados diacríticos (" ́", "\`", "~", "^", cedilha);
+* A entrada e a saída só devem conter minúsculas;
+* O ficheiro "syms.txt" contém os símbolos a manipular pelos transdutores e não pode ser alterado.
