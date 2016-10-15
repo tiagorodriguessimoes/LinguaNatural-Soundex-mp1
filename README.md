@@ -12,9 +12,13 @@ X → S se precedido de "E" (que está no início de palavra) e seguido de uma c
 
 ###2. passo
 CH → X (ex: acho → axo)
+
 LH → 2 (ex: galho → ga2o)
+
 NH → 3 (ex: ganho → ga3o)
+
 RR → 4 (ex: carro → ca4o)
+
 SS → S (ex: massa → masa)
 
 ###3. passo
