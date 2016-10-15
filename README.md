@@ -5,10 +5,10 @@ Os algoritmos ditos fonéticos têm como objectivo associar uma única represent
 Defina UM transdutor, usando outros transdutores mais pequenos, que implemente o seguinte algoritmo fonético: 
 
 ###1. passo
-S → Z se entre vogais (ex: asa → aza)
-X → Z se precedido de "E" (que está no início de palavra) e seguido de uma vogal (ex: exame →
+⋅⋅⋅S → Z se entre vogais (ex: asa → aza)
+⋅⋅⋅X → Z se precedido de "E" (que está no início de palavra) e seguido de uma vogal (ex: exame →
 ezame)
-X → S se precedido de "E" (que está no início de palavra) e seguido de uma consoante (ex: extra → estra)
+⋅⋅⋅X → S se precedido de "E" (que está no início de palavra) e seguido de uma consoante (ex: extra → estra)
 
 ###2. passo
 CH → X (ex: acho → axo)
