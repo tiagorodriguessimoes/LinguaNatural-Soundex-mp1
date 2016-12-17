@@ -1,5 +1,15 @@
 # LinguaNatural-Soundex-mp1
+[Página da Cadeira](https://fenix.tecnico.ulisboa.pt/disciplinas/LN35179/2016-2017/1-semestre/pagina-inicial)
 
+LÍNGUA NATURAL 2016/2017 
+Mini-Projecto No 1 — MP1
+
+Data limite entrega: até às 12:00 (meio dia) do dia 17/Out
+
+###OBJECTIVOS
+Aprender a trabalhar com transdutores, usando-os para resolver um problema concreto na área de PLN.
+
+###ENUNCIADO
 Os algoritmos ditos fonéticos têm como objectivo associar uma única representação (chave) a palavras que soam de modo semelhante. O Soundex (Odell e Russel, 1922) e o Mataphone (Lawrence Philips, 1990) são exemplos deste tipo de algoritmos.
 
 Defina UM transdutor, usando outros transdutores mais pequenos, que implemente o seguinte algoritmo fonético: 
