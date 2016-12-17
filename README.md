@@ -48,3 +48,7 @@ Deverá ter em conta que:
 * Não serão considerados diacríticos (" ́", "\`", "~", "^", cedilha);
 * A entrada e a saída só devem conter minúsculas;
 * O ficheiro "syms.txt" contém os símbolos a manipular pelos transdutores e não pode ser alterado.
+
+###Software
+* Graphviz
+* OpenFST da Google
